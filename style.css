@@ -31,9 +31,9 @@
 .education {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 35px;
-  line-height: 35px;
+  /* line-height: 35px; */
   /* identical to box height, or 286% */
 
   color: #110e2d;
