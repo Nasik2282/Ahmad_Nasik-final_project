@@ -32,7 +32,7 @@
   font-family: "Poppins";
   font-style: normal;
   /* font-weight: 700; */
-  font-size: 35px;
+  /* font-size: 35px; */
   /* line-height: 35px; */
   /* identical to box height, or 286% */
 
@@ -42,12 +42,12 @@
 .school {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
+  /* font-weight: 700;
+  font-size: 20px; */
   line-height: 35px;
   /* identical to box height, or 125% */
 
-  text-align: justify;
+  text-align: center;
 
   color: #110e2d;
 }
@@ -58,9 +58,9 @@
 .portfolio {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 700;
+  /* font-weight: 700;
   font-size: 50px;
-  line-height: 100px;
+  line-height: 100px; */
   /* identical to box height, or 200% */
 
   color: #fafafa;
@@ -69,9 +69,9 @@
 .my_design {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 700;
+  /* font-weight: 700;
   font-size: 25px;
-  line-height: 35px;
+  line-height: 35px; */
   /* identical to box height, or 140% */
 
   color: #fafafa;
@@ -113,18 +113,19 @@ box:hover {
   .my_name {
     margin-left: 20px;
     font-size: 20px;
-    line-height: 30px;
+    line-height: 10px;
   }
   .description {
-    margin-left: 20px;
+    text-align: center;
     font-size: 7px;
-    width: 75%;
+    width: 100%;
     line-height: 7px;
+    margin-top: -20px;
   }
 
   .education {
     margin-left: 20px;
-    font-size: 15px;
+    font-size: 10px;
     line-height: 0px;
   }
 
@@ -132,6 +133,7 @@ box:hover {
     margin-left: 20px;
     font-size: 7px;
     line-height: 10px;
+    text-align: center;
   }
   .portfolio {
     font-size: 15px;
